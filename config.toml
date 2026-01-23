@@ -1,11 +1,9 @@
 # The URL the site will be built for
 base_url = "https://ink-ethmarks.vercel.app"
 
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
+title = "Ink"
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+output_dir = "dist"
 
 [markdown]
 
