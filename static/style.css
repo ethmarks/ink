@@ -8,3 +8,18 @@ h1 {
     color: var(--color-text-secondary);
     margin-top: 0;
 }
+
+ul.pages-list {
+    list-style: none;
+    padding: 0;
+}
+
+li.page-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-date {
+    font-style: italic;
+    color: var(--color-text-secondary);
+}
