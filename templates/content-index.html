@@ -14,8 +14,8 @@
             minimalist static site generator, and is intentionally kept
             simplistic and low-tech compared to my other sites. I still use my
             site-wide styles, but I have very little Ink-specific logic or
-            styling. I did this to try to create a "vibe" less focused on
-            web development or tech and more focused on writing.
+            styling. I did this to try to create a "vibe" less focused on tech
+            and more focused on writing.
         </p>
         <p>
             You might notice that many of the pieces have creation dates that
@@ -24,12 +24,27 @@
             this site, I gave them creation dates that were representative of
             when they were created rather than when they were published.
         </p>
+        <p>
+            All works in Ink are under a
+            <a
+                href="https://creativecommons.org/publicdomain/zero/1.0/"
+                rel="license"
+                >Creative Commons Zero</a
+            >
+            license. This effectively releases them into the public domain. You
+            may copy, modify, distribute, sell, and do anything else that you
+            like with my work without permission and without restrictions. If
+            you use any of my work, I would appreciate it if you would give a
+            shout-out or link to the source (me), but you aren't under any moral
+            or legal obligation to do so.
+        </p>
 
         <ul class="pages-list">
             {% for page in section.pages %}
             <li class="page-item">
                 <span class="page-link"
-                    ><a href="{{ get_env(name="BASE_PATH", default="") | safe }}/{{ page.slug | safe }}"
+                    ><a
+                        href="{{ get_env(name='BASE_PATH', default='') | safe }}/{{ page.slug | safe }}"
                         >{{ page.title }}</a
                     ></span
                 >
