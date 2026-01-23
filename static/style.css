@@ -1,0 +1,10 @@
+h1 {
+    color: var(--color-text);
+    font-size: 40px;
+}
+
+.subtitle {
+    font-style: italic;
+    color: var(--color-text-secondary);
+    margin-top: 0;
+}
