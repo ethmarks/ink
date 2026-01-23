@@ -29,7 +29,7 @@
             defer
         ></script>
 
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="{{ get_env(name="BASE_PATH", default="") | safe }}/style.css">
     </head>
     <body>
         <eth-header active="ink"></eth-header>
