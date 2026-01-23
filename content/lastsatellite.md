@@ -4,6 +4,13 @@ date = 2024-07-30
 description = "A short story about the last satellite orbiting a post-human Earth and its final descent."
 +++
 
+<figure>
+    <img 
+        class="responsive" 
+        src="../satellite.webp" 
+        alt="A watercolour painting of a satellite burning up on re-entry; generated with Imagen 3">
+</figure>
+
 In the silence of a world reclaimed, Earth had become a quiet sanctuary. The ruins of its past, once mighty citadels of steel and glass, lay sprawled across the land like relics in a forgotten tomb. Forests, thick with the grandeur of untouched wilderness, swathed their roots through crumbled streets, while vines coiled and flourished around the remnants of shattered skyscrapers. The rivers, once brackish with the filth of industry, now flowed pure, like veins of crystal through valleys, unspoiled for centuries. The ghostly remnants of human folly, plutonium waste entombed in concrete sarcophagi, had long laid inert and depleted, their dreaded potency diluted into insignificance by the patient caress of time.
 
 High above this resurrected Eden, a solitary watcher lingered in orbit, the last of its kind. This satellite had once been a node in the vast and frenetic web of humanity’s reach, transmitting signals across hemispheres, carrying the voices and data of a species consumed by its endless hunger for connection. But those voices had gone quiet millennia ago, the great towers of technology eroded to mere whispers beneath an ever-thickening shroud of foliage. And yet, this silent sentinel remained; its purpose long outlived, its circuits long discharged, tracing its slow, decaying spiral around the planet below.
