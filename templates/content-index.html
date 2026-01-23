@@ -5,6 +5,10 @@
     <h1>Ink</h1>
     <article>
         <p>These is my creative writing collection, called Ink.</p>
+
+        {% for page in section.pages %}
+            <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+        {% endfor %}
     </article>
 </main>
 {% endblock content %}
