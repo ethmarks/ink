@@ -5,7 +5,7 @@
     <article>
         <h1 class="nomint">{{ page.title }}</h1>
         <p class="subtitle">Created {{ page.date }}</p>
-        {{ page.content | safe }}
+        {{ page.content | replace(from='src="~/', to='src="' ~ get_env(name="BASE_PATH", default="") ~ '/') | safe }}
     </article>
 </main>
 {% endblock content %}

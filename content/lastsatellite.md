@@ -7,7 +7,7 @@ description = "A short story about the last satellite orbiting a post-human Eart
 <figure>
     <img 
         class="responsive" 
-        src="../satellite.webp" 
+        src="~/satellite.webp" 
         alt="A watercolour painting of a satellite burning up on re-entry; generated with Imagen 3">
 </figure>
 
