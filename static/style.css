@@ -17,9 +17,25 @@ ul.pages-list {
 li.page-item {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    background-image: radial-gradient(
+        circle,
+        var(--color-text-secondary) 1px,
+        transparent 1px
+    );
+    background-size: 8px 1em;
+    background-position: 0 bottom;
+    background-repeat: repeat-x;
+}
+
+.page-link {
+    background: var(--color-article);
+    padding-right: 4px;
 }
 
 .page-date {
     font-style: italic;
     color: var(--color-text-secondary);
+    background: var(--color-article);
+    padding-left: 4px;
 }
