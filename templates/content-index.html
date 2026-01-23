@@ -29,7 +29,7 @@
             {% for page in section.pages %}
             <li class="page-item">
                 <span class="page-link"
-                    ><a href="{{ page.slug | safe }}"
+                    ><a href="{{ get_env(name="BASE_PATH", default="") | safe }}/{{ page.slug | safe }}"
                         >{{ page.title }}</a
                     ></span
                 >
