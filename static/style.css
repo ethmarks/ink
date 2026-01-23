@@ -1,4 +1,4 @@
-h1 {
+h1.single-title {
     color: var(--color-text);
     font-size: 40px;
 }
