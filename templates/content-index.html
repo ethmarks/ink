@@ -1,20 +1,41 @@
 {% extends "base.html" %}
-
 {% block content %}
 <main>
     <h1>Ink</h1>
     <article>
-        <p><a href="https://github.com/ethmarks/ink">Ink</a> is my creative writing site. I use it to host the poems, short stories, and other creative writing pieces I've written that I want to share with the world.</p>
-        <p>Ink is built with <a href="https://www.getzola.org/">Zola</a>, a minimalist static site generator, and is intentionally kept simplistic and low-tech compared to my other sites. I still use my site-wide styles, but I have very little Ink-specific logic or styling. This was intentional to create a "vibe" more focused on writing than on web development or tech.</p>
-        <p>You might notice that many of the pieces have creation dates that predate this site by multiple years. This is intentional. I wrote those pieces long before creating this site, so when I moved them to this site, I gave them creation dates that were representative of when they were created rather than when they were published.</p>
+        <p>
+            <a href="https://github.com/ethmarks/ink">Ink</a> is my creative
+            writing site. I use it to host the poems, short stories, and other
+            creative writing pieces I've written that I want to share with the
+            world.
+        </p>
+        <p>
+            Ink is built with <a href="https://www.getzola.org/">Zola</a>, a
+            minimalist static site generator, and is intentionally kept
+            simplistic and low-tech compared to my other sites. I still use my
+            site-wide styles, but I have very little Ink-specific logic or
+            styling. I did this to try to create a "vibe" less focused on
+            web development or tech and more focused on writing.
+        </p>
+        <p>
+            You might notice that many of the pieces have creation dates that
+            predate this site by multiple years. This is intentional. I wrote
+            those pieces long before creating this site, so when I moved them to
+            this site, I gave them creation dates that were representative of
+            when they were created rather than when they were published.
+        </p>
 
         <ul class="pages-list">
-        {% for page in section.pages %}
+            {% for page in section.pages %}
             <li class="page-item">
-                <span class="page-link"><a href="{{ page.permalink | safe }}">{{ page.title }}</a></span>
+                <span class="page-link"
+                    ><a href="{{ page.permalink | safe }}"
+                        >{{ page.title }}</a
+                    ></span
+                >
                 <span class="page-date">{{ page.date }}</span>
             </li>
-        {% endfor %}
+            {% endfor %}
         </ul>
     </article>
 </main>
