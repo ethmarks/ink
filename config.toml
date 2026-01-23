@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://ink-ethmarks.vercel.app"
+base_url = "https://ink-ethmarks.vercel.app/ink"
 
 title = "Ink"
 
@@ -11,4 +11,3 @@ output_dir = "dist"
 theme = "catppuccin-mocha"
 
 [extra]
-# Put all your custom variables here
