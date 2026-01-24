@@ -39,3 +39,13 @@ li.page-item {
     background: var(--color-article);
     padding-left: 4px;
 }
+
+main.single > article {
+    margin-bottom: 0;
+}
+p.license {
+    font-style: italic;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-md);
+    margin-bottom: var(--article-margin-vertical);
+}
