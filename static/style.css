@@ -48,4 +48,6 @@ p.license {
     color: var(--color-text-secondary);
     font-size: var(--font-size-md);
     margin-bottom: var(--article-margin-vertical);
+    margin-left: var(--spacing-sm);
+    max-width: 80%;
 }
