@@ -1,6 +1,7 @@
 h1.single-title {
     color: var(--color-text);
     font-size: 40px;
+    margin-left: 0;
 }
 
 .subtitle {
