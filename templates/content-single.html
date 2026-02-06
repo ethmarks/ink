@@ -2,7 +2,7 @@
 
 {% block content %}
 <main class="single">
-    <article>
+    <article class="animated">
         <h1 class="nomint single-title">{{ page.title }}</h1>
         <p class="subtitle">Created {{ page.date }}</p>
         {{ page.content | replace(from='src="~/', to='src="' ~ get_env(name="BASE_PATH", default="") ~ '/') | safe }}
