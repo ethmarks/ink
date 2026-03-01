@@ -7,14 +7,14 @@
         <p class="subtitle">Created {{ page.date }}</p>
         {{ page.content | replace(from='src="~/', to='src="' ~ get_env(name="BASE_PATH", default="") ~ '/') | safe }}
     </article>
-    <p class="license">
-        This work is licensed under a
+    <p class="license animated">
+        This work is dedicated
+        <span class="desktop-only">to the public domain</span> under
         <a
             href="https://creativecommons.org/publicdomain/zero/1.0/"
             rel="license"
-            >Creative Commons Zero</a
+            >CC0</a
         >
-        license
     </p>
 </main>
 {% endblock content %}
